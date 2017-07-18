@@ -1,7 +1,6 @@
 package br.com.thiengo.pdfviwertest
 
 import android.content.Context
-import android.content.Intent
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -36,40 +35,22 @@ class DocAdapter(
     }
 
     inner class ViewHolder(itemView: View) :
-            RecyclerView.ViewHolder(itemView),
-            View.OnClickListener {
+            RecyclerView.ViewHolder(itemView) {
 
         var ivCover: ImageView
         var tvLanguage: TextView
         var tvTotalPages: TextView
-        var tvPageStopped: TextView
 
         init {
-            itemView.setOnClickListener(this)
             ivCover = itemView.findViewById(R.id.iv_cover)
             tvLanguage = itemView.findViewById(R.id.tv_language)
             tvTotalPages = itemView.findViewById(R.id.tv_total_pages)
-            tvPageStopped = itemView.findViewById(R.id.tv_page_stopped)
         }
 
         fun setData(doc: Doc) {
             ivCover.setImageResource( doc.imageRes )
             tvLanguage.text = doc.language
             tvTotalPages.text = "${doc.pagesNumber} páginas"
-
-            tvPageStopped.visibility = if( doc.getActualPage(context) > 0 ){
-                    tvPageStopped.text = "Parou na página ${doc.getActualPage(context, 1)}"
-                    View.VISIBLE
-                }
-                else{
-                    View.GONE
-                }
-        }
-
-        override fun onClick(view: View?) {
-            val intent = Intent(context, PdfActivity::class.java)
-            intent.putExtra( Doc.DOC_KEY, docList.get( adapterPosition ) )
-            context.startActivity( intent )
         }
     }
 }

@@ -17,11 +17,6 @@ class MainActivity : AppCompatActivity() {
         initRecycler()
     }
 
-    override fun onResume() {
-        super.onResume()
-        initRecycler()
-    }
-
     private fun initRecycler() {
         rv_todo.setHasFixedSize(true)
 
