@@ -6,7 +6,7 @@ Artigo que discute em detalhes a PdfViewer API. API que permite em aplicativos A
 
 <img src="https://www.thiengo.com.br/img/post/normal/18ei59i5s2dg9cck5nnf7pvr861301a1fa073dd740738d676794f01425.jpg" width="611" alt="Aplicativo Android Dot.Documentações para PDFs">
 
-O conteúdo do artigo também está disponível em [vídeos](https://www.thiengo.com.br/pdf-no-android#title-26).
+O conteúdo do artigo também está disponível em [vídeo](https://www.thiengo.com.br/pdf-no-android#title-26).
 
 ### Primeira parte
 
