@@ -12,7 +12,7 @@ O conteúdo do artigo também está disponível em [vídeo](https://www.thiengo.
 
 O projeto deste repositório é a versão inicial do projeto Android de exemplo apresentado em artigo, ou seja, ainda sem a implantação da PDFViewer API.
 
-Para acessar o repositório do projeto finalizado entre em (GitHub do projeto Dot.Documentações finalizado)[https://github.com/viniciusthiengo/dot-documentacoes-final].
+Para acessar o repositório do projeto finalizado entre em [GitHub do projeto Dot.Documentações finalizado](https://github.com/viniciusthiengo/dot-documentacoes-final).
 
 ### Primeira parte
 
