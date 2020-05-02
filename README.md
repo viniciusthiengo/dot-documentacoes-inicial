@@ -8,6 +8,12 @@ Artigo que discute em detalhes a PdfViewer API. API que permite em aplicativos A
 
 O conteúdo do artigo também está disponível em [vídeo](https://www.thiengo.com.br/pdf-no-android#title-26).
 
+### Projeto finalizado ⚠
+
+O projeto deste repositório é a versão inicial do projeto Android de exemplo apresentado em artigo, ou seja, ainda sem a implantação da PDFViewer API.
+
+Para acessar o repositório do projeto finalizado entre em (GitHub do projeto Dot.Documentações finalizado)[https://github.com/viniciusthiengo/dot-documentacoes-final].
+
 ### Primeira parte
 
 Caso você queira ter acesso à primeira parte do artigo, então [entre por aqui](https://www.thiengo.com.br/pdf-no-android#title-01). Está primeira parte discute somente a PdfViewer API, sem um projeto Android de exemplo em específico.
